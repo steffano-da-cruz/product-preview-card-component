@@ -1,6 +1,6 @@
 body {
   display: flex;
-  height: 95vh;
+  height: 98vh;
   justify-content: center;
   align-items: center;
   background-color: hsl(30, 38%, 92%);
@@ -10,32 +10,35 @@ body {
   display: flex;
   height: 550px;
   width: 700px;
-  background-color: white;
-  border-radius: 10px;
 }
 
-.left {
+.left-top {
   height: 550px;
   width: 350px;
+  border-radius: 10px 0 0 10px;
 }
 
-img {
+.img-desktop {
   height: 550px;
   width: 350px;
   object-fit: cover;
   border-radius: 10px 0 0 10px;
 }
 
-.right {
-  height: 550px;
-  width: 350px;
+.img-mobile {
+  display: none;
 }
 
-.sub-container {
+.right-bottom {
+  height: 550px;
+  width: 350px;
+  border-radius: 0 10px 10px 0;
+  background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 27px;
 }
 
 .sub-item {
@@ -49,7 +52,8 @@ img {
   font-weight: 500;
   font-size: 0.9rem;
   letter-spacing: 5px;
-  margin-bottom: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .subtitle {
@@ -57,8 +61,9 @@ img {
   font-family: "Fraunces", serif;
   font-size: 2.3rem;
   max-width: 250px;
+  line-height: 40px;
   margin-top: 0;
-  margin-bottom: 10px;
+  margin-bottom: 0;
 }
 
 .description {
@@ -68,7 +73,8 @@ img {
   font-size: 1rem;
   max-width: 260px;
   line-height: 25px;
-  margin-bottom: 30px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .sale {
@@ -78,7 +84,8 @@ img {
   font-size: 2.1rem;
   justify-content: center;
   align-items: center;
-  margin-bottom: 35px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .full-price {
@@ -97,11 +104,65 @@ img {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 1rem;
+  width: 280px;
   color: white;
-  background-color: rgb(37, 63, 49);
+  background-color: hsl(158, 36%, 37%);
   border: none;
   padding: 18px;
   align-self: center;
   border-radius: 9px;
-  width: 280px;
+}
+
+@media (max-width: 750px) {
+  .container {
+    flex-direction: column;
+    height: 700px;
+    width: 350px;
+  }
+
+  .left-top {
+    height: 250px;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+  }
+
+  .img-desktop {
+    display: none;
+  }
+
+  .img-mobile {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+  }
+
+  .right-bottom {
+    border-radius: 0 0 10px 10px;
+    gap: 25px;
+  }
+
+  .sub-item {
+    margin-left: 25px;
+  }
+
+  .title {
+    font-size: 0.8rem;
+  }
+
+  .subtitle {
+    font-size: 2rem;
+    max-width: 300px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .description {
+    font-size: 0.9rem;
+    max-width: 300px;
+  }
+
+  .btn {
+    width: 300px;
+  }
 }
