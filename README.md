@@ -2,7 +2,7 @@
 ![Product Preview](/assets/images/readme-preview-card.png)
 
 ## 💻 About the Project
-A challenge from the Frontend Mentor website. It's a pretty easy challenge, although it was kind of hard to make it responsive for mobile, but I learned a lot. It was made using Flexbox.
+A challenge from the Frontend Mentor website. It's a pretty easy challenge, although it was kind of tricky to make it responsive for mobile, but I learned a lot. It was made using Flexbox.
 
 ## 🛠 Technologies used
 - HTML5
