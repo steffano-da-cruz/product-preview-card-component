@@ -1,5 +1,5 @@
 # Product Preview Card Component
-![Product Preview](/assets/images/readme-product-preview.png)<br />
+![Product Preview](/assets/images/readme-product-preview.png)
 ![Product Preview](/assets/images/readme-product-preview-mobile.png)
 
 ## 💻 About the Project
