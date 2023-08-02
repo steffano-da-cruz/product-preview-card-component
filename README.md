@@ -1,5 +1,6 @@
 # Product Preview Card Component
-![My HTML Curriculum](/assets/images/readme-my-curriculum.png)
+![Product Preview](/assets/images/readme-product-preview.png)
+![Product Preview](/assets/images/readme-product-preview-mobile.png)
 
 ## 💻 About the Project
 A challenge from the Frontend Mentor website. It's a pretty easy challenge, although it was kind of hard to make it responsive for mobile, but I learned a lot. It was made using Flexbox.
