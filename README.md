@@ -1,6 +1,5 @@
 # Product Preview Card Component
-![Product Preview](/assets/images/readme-product-preview.png)
-![Product Preview](/assets/images/readme-product-preview-mobile.png)
+![Product Preview](/assets/images/captura-tela.png)
 
 ## 💻 About the Project
 A challenge from the Frontend Mentor website. It's a pretty easy challenge, although it was kind of hard to make it responsive for mobile, but I learned a lot. It was made using Flexbox.
