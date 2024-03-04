@@ -1,5 +1,6 @@
 # Product Preview Card Component
-![Product Preview](/assets/images/readme-preview-card.png)
+![Product Preview](/assets/images/readme-preview-desktop.png)
+![Product Preview](/assets/images/readme-preview-mobile.png)
 
 ## 💻 About the project
 A challenge from the Frontend Mentor website. It's a pretty easy challenge, although it was kind of tricky to make it responsive for mobile, but I learned a lot. It was made using Flexbox. Dont't forget to give it a try on mobile, because this web page is responsive!
